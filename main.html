@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <div class="full">
+<img src="photo_remove.png">
+    <div class="main">
+
+        <span class="p">Calculator <input type="button" value="<<" class="span" onclick="erase()"></span>
+        <input id="Answer" type="text" style="width:158px; text-align:right">
+        <input type="button"  value="=" onclick="EnterEqual()">
+        <input type="button"  value="1" onclick="EnterNumber(this.value)">
+        <input type="button"  value="2" onclick="EnterNumber(this.value)">
+        <input type="button"  value="3" onclick="EnterNumber(this.value)">
+        <input type="button"  value="+" onclick="EnterOperator(this.value)">
+        <input type="button" value="4" onclick="EnterNumber(this.value)">
+        <input type="button" value="5" onclick="EnterNumber(this.value)">
+        <input type="button"  value="6" onclick="EnterNumber(this.value)">
+        <input type="button"  value="-" onclick="EnterOperator(this.value)">
+        <input type="button"  value="7" onclick="EnterNumber(this.value)">
+    <input type="button"  value="8" onclick="EnterNumber(this.value)">
+        <input type="button"  value="9" onclick="EnterNumber(this.value)">
+        <input type="button"  value="*" onclick="EnterOperator(this.value)">
+        
+            <input type="button"  value="C" onclick="EnterClear()">
+            <input type="button" value="0" onclick="EnterNumber(this.value)">
+            <input type="button"  value="." onclick="EnterNumber(this.value)">
+            <input type="button"  value="/" onclick="EnterOperator(this.value)">
+
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
